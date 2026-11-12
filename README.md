@@ -15,10 +15,10 @@ Currently building internal tools and ML systems in fintech.
 | Project | What it does | Stack |
 |---|---|---|
 | **[Agentic Support Platform](LINK)** | Multi-tenant async customer support with RAG, vision, action and escalation agents | LangGraph, FastAPI, RAG |
-| **[Vaani](LINK)** | Multilingual voice agent for lending support, with sound-based name matching and identity verification | Python, AWS, speech |
+| **[Vaani]([LINK](https://github.com/trivedi-aman/vaani))** | Multilingual voice agent for lending support, with sound-based name matching and identity verification | Python, AWS, speech |
 | **[LoanRoute](LINK)** | Loan applicant prioritization with explainable predictions | XGBoost, SHAP, FastAPI |
 | **[DataFlow](LINK)** | Metadata-driven ETL that compiles YAML into DuckDB, Polars or Spark jobs | Python, DuckDB, Polars, Spark |
-| **[StudyForge](LINK)** | Document platform: RAG chat, YouTube-to-notes, text-to-slides | Groq, NVIDIA NIM, RAG |
+| **[StudyForge]([LINK](https://github.com/trivedi-aman/studyforge))** | Document platform: RAG chat, YouTube-to-notes, text-to-slides | Groq, NVIDIA NIM, RAG |
 | **[Vintage ML Compressor](LINK)** | Audio plugin with C++ DSP and an ML settings recommender | C++, JUCE |
 
 **In production at work:** live operations KPI dashboard (React + FastAPI + PostgreSQL),
