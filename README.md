@@ -22,7 +22,8 @@ Currently building internal tools and ML systems in fintech.
 | **Vintage ML Compressor** | Audio plugin with C++ DSP and an ML settings recommender | C++, JUCE |
 
 **In production at work:** live operations KPI dashboard (React + FastAPI + PostgreSQL),
-multi-agent policy assistant with guardrails, and an XGBoost collections-prioritization model.
+multi-agent policy assistant with guardrails, an XGBoost collections-prioritization model,
+and an HR system for attendance, leave and hiring (web + Android app).
 
 ---
 
