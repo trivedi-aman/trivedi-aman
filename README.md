@@ -10,12 +10,34 @@ Currently building internal tools and ML systems in fintech.
 
 ---
 
+### 📦 Open source
+
+**[indic-phonetic](https://github.com/trivedi-aman/indic-phonetic)** · [PyPI](https://pypi.org/project/indic-phonetic/)
+
+Python library that matches Indian names and places by how they **sound**, across Roman, Devanagari and Tamil script.
+It knows retroflex sounds, Hindi schwa deletion, Tamil voicing and regional confusions (v/b, ड़/r), handles titles,
+initials and word order, and explains every match. Pure Python, no dependencies. Extracted from Vaani.
+
+```bash
+pip install indic-phonetic
+```
+
+```python
+from indic_phonetic import distance, Matcher
+
+distance("Barmer", "बाड़मेर")   # 0.4  same place
+distance("Mohan", "Rohan")       # 1.7  different people
+Matcher(districts).best_match("Baadmer")
+```
+
+---
+
 ### 🚀 Featured projects
 
 | Project | What it does | Stack |
 |---|---|---|
 | **Agentic Support Platform** | Multi-tenant async customer support with RAG, vision, action and escalation agents | LangGraph, FastAPI, RAG |
-| **[Vaani](https://github.com/trivedi-aman/vaani)** | Multilingual voice agent for lending support, with sound-based name matching and identity verification | Python, AWS, speech |
+| **[Vaani](https://github.com/trivedi-aman/vaani)** | Multilingual voice agent for lending support, with sound-based name matching ([indic-phonetic](https://github.com/trivedi-aman/indic-phonetic)) and identity verification | Python, AWS, speech |
 | **LoanRoute** | Loan applicant prioritization with explainable predictions | XGBoost, SHAP, FastAPI |
 | **DataFlow** | Metadata-driven ETL that compiles YAML into DuckDB, Polars or Spark jobs | Python, DuckDB, Polars, Spark |
 | **[StudyForge](https://github.com/trivedi-aman/studyforge)** | Document platform: RAG chat, YouTube-to-notes, text-to-slides | Groq, NVIDIA NIM, RAG |
