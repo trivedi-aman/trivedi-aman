@@ -31,7 +31,8 @@ multi-agent policy assistant with guardrails, and an XGBoost collections-priorit
 - **Languages:** Python · C++ · SQL · JavaScript/TypeScript
 - **GenAI:** LangGraph · RAG · AWS Bedrock (AgentCore) · Strands Agents · Groq · NVIDIA NIM
 - **ML:** XGBoost · scikit-learn · SHAP · credit scorecards (WOE/IV) · survival & causal analysis
-- **Backend:** FastAPI · PostgreSQL · React
+- **Backend:** FastAPI · SQLAlchemy · Alembic · PostgreSQL · React
+- **Mobile:** Flutter (Android)
 - **Data:** Spark/PySpark · Polars · DuckDB · Airflow
 - **Cloud & tools:** AWS (EC2, Bedrock) · Cloudflare · Docker · Git · Linux
 
